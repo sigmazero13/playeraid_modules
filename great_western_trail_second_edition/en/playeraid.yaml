@@ -11,303 +11,232 @@ sections:
       text: |
           This document shows information for both multiplayer and 
           [solo mode]!red!.  [Solo mode-specific text will be in red.]!red!
+          Expansion instructions are not found in this document.
     - name: Setup
       text: |
-          [SOLO: Choose a difficulty, and set up for 2 players, except as
-          noted below:]!red!
+          If you see a number in A/B/C format, the number depends on the
+          player count; ie, A for 2 players, B for 3 players, C for 4 players.
+          
+          1.  Place the **game board** in the middle of the table.
+          2.  Shuffle the 9 **station master tiles**, placing one on each of
+              the 5 *station master spaces*.  Return the remaining 4 to the
+              box.
+          3.  Take the 7 **neutral building tiles** and either place them
+              on their corresponding *neutral spaces* on the board (recommended
+              for the first game), or shuffle them and place them randomly.
+          4.  Place the **job market token** on the top dasked round space
+              on the *job market*.
+          5.  Sort the **worker**, **hazard**, and **outlaw** tiles by the
+              number on their back, and place them in their corresponding
+              numbered *bags*.  These are the *Kansas City Supply*
+          6.  Draw 7 tiles from the "1" bag of the Kansas City Supply, and
+              place them on their corresponding spaces on the game board. Each
+              tile should be placed in the lowest-numbered available space
+              on its track.
+               * Outlaws are placed on the outlaw track in the middle of the
+                 board.
+               * Hazards are placed on the matching hazard track (flood, 
+                 drought, or rockfall).
+              If a tile cannot be placed, return it to the bag and draw a
+              new tile.
+          7.  Draw 3/5/7 tiles from the "2" bag, and place
+              them on the job market, starting from the top, going left to
+              right. Only place tiles on spaces for the player count.
+          8.  Fill the 6 *foresight* spaces in Kansas City by drawing 2 tiles
+              each from the "1", "2" and "3" bags, and placing them on their
+              respective spaces.
+          9.  Shuffle the **market cattle cards** and draw 7/10/13 cards, 
+              sorting them by color and placing them in this order: 
+              [Yellow]!yellow!, [Red]!red!, [Blue]!blue!, [Brown]!brown!,
+              [Purple]!purple!.
+          10. Shuffle the **objective cards**, and place them near the game
+              board. Draw 4 of these cards and place them a column beneath
+              the deck.
+          11. Place the **coins** and **exchange tokens** accessible to all
+              players to form the supply.
+          12. Each player chooses a player color, taking the **player board**
+              for that color. If playing with 2 or 3 players, also take the 
+              **player count** tile for the appropriate player count, using it
+              to cover the *Phase A* section at the top of your player board.
+          13. Each player takes the 12 **private building tiles** for your
+              color. For the first game, use the "A" side for all buildings.
+              In subsequent games, pick any mix of "A" and "B" sides using any
+              method you desire. All players should use the same "A" and "B"
+              sides for each building.
+          14. Each player takes the other pieces of your player color:
+               * 14 **discs**, placed to cover the marked spaces on your
+                 player board.
+               * 1 **engine**, placed on the starting space of the *railroad
+                 track* on the game board.
+               * 1 **certificate marker**, placed on the "0" space of the
+                 certificate track on your player board.
+               * 1 **herder**, placed next to your player board for now.
+          15. Each player takes the 14 **player cattle cards** matching your
+              color, shuffles them and places them in a deck near your
+              player board.
+          16. Shuffle the **starting objective cards** and deal one at random
+              to each player, and is place face-up near your player board.
+          17. Randomly determine a **starting player**. Starting with the 
+              first player and proceeding clockwise, each player collects the
+              specified number of coins and exchange tiles, and draws the
+              specified number of cards from their cattle deck: 
+               * 1st player: $6, 1 exchange tile, 4 cards
+               * 2nd player: $7, 1 exchange tile, 5 cards
+               * 3rd player: $8, 1 exchange tile, 6 cards
+               * 4th player: $9, 1 exchange tile, 7 cards
 
-           | [Difficulty]!red! | [Setup]!red! | [1st Delivery]!red! |
-           | ---------- | ----- | ------------ |
-           | [Easy]!red! | [Remove cards #13, #14, #15]!red! | [Bloomington]!red! |
-           | [Medium]!red! | [-]!red! | [Bloomington]!red! |
-           | [Hard]!red! | [Add 1 worker of each type]!red! | [Peoria]!red! |
-   
-          1. Place the game board in the middle of the table.
+              Before your first turn, if you have more than 4 cards, you must
+              discard down to 4 cards.
+    - name: Gameplay
+      text: |
+          Beginning with the 1st player and proceding clockwise, each player
+          takes their turn by resolving the following phases in order.
 
-          2. Shuffle the 9 station master tiles and place 5 of them at random
-             on the 5 station master spaces.  Return the remaining 4 tiles to
-             the box.
+          * [Phase A - Move your herder](#phase_a)
+          * [Phase B - Use actions of your location](#phase_b)
+          * [Phase C - Draw up to your hand limit](#phase_c)
 
-          3. Take the 7 neutral building tiles and place one face up onto each
-             of the 7 neutral spaces on the game board (marked A to G).
+          Play continues until the **job marker** is moved off the bottom
+          of the *job track*. Once this happens, the current player finishes
+          their turn, then each **other** player takes one final turn.
 
-          4. Place the job market token onto the top dashed round space in the
-             job market.
-
-          5. Sort the worker, outlaw and hazard tiles by the number on their
-             back, and put them into their corresponding bags.  Place these
-             bags near the board to create the Kansas City Supply.
-
-              [SOLO: After shuffling, randomly draw one (2) tile and put it next
-              to the game board.]!red!
-
-          6. Draw 7 tiles from the (1) bag, and place them on the game board:
-
-              * Outlaw tiles (orange and green) go onto the empty space with
-                the lowest number (1 to 9) in the outlaw section.
-
-              * Hazard tiles (flood, drought and rockfall) go onto the empty
-                space with the lowest number (1 to 4) in the corresponding
-                hazard section. If there are no more empty spaces in that
-                section, return the tile to the bag and draw a new one.
-
-          7. Draw tiles from the (2) bag to populate the job market.  Start
-             with the top row, placing the first tile drawn onto the space
-             directly beneath the player count sign matching the actual
-             player count.  Fill the top row, and start again on the second
-             row, filling all but the space with the job market token.
-
-              When finished, there will be 3/5/7 workers for a 2/3/4 player
-             game.
-
-          8. Fill the 6 foresight spaces in Kansas City by drawing 2 tiles
-             from each bag and placing them face up onto the spaces matching
-             the bag number.
-
-          9. Shuffle the 36 market cattle cards, and place them as a face-down
-             market cattle stack near the board.  Draw 7/10/13 cards for a
-             2/3/4 player game, and sort them by color, in this order.
-              yellow, red, blue, brown, purple
-
-          10. Shuffle the 24 objective cards and place them as a face-down
-             stack near the board. Reveal the first 4 cards and display them
-             face up in a column below the stack.
-
-          11. Place the coins and exchange tokens within reach of all players.
-
-          12. Each player chooses a player color, and takes the player board
-              matching that color. If playing with 2 or 3 players, also take
-              a player count tile of your color, turn it to the appropriate
-              side, and overlay it onto the Phase A area of your board.
-
-              [SOLO: Choose a color for Sam, but take Sam's board instead
-              of a player board.]!red!
-
-          13. Take the 12 private building tiles of your color.  Determine
-              whether to use the "a" or "b" side of each tile. You may
-              wish to sort them by required builders.
-
-               **IMPORTANT:** All players should use the same configuration
-              of tiles. IE, all players should use either 7a or 7b, etc.
-
-               [SOLO: Sam will use the "b" side of all buildings, regardless
-              of what side the human player uses.]!red!
-
-               [Place the (2) tile set aside in step 5, and place it
-              face-up into the leftmost pace of Sam's board matching the
-              worker type.  If playing on Hard difficulty, take 1 of each
-              worker type from the (2) bag and also add them to Sam's
-              board.]!red!
-
-               [Insert the specialization tile on Sam's board next to the
-              most numerour worker type on the board.]!red!
-
-          14. Take the 14 discs, engine, certificate marker, and herder
-              matching your color:
-
-               * Place the discs on your player board in the marked spaces.
-               * Place the engine on the starting space of the railroad track.
-               * Place the certificate marker in the top space of your
-                 certificate track.
-               * Place your herder near your board for now.
-
-               [SOLO: Place Sam's engine on the starting space of the
-              railroad track, his herder on the horseman space in the
-              bottom left corner of the board, and the 14 discs near Sam's
-              board. Sam does not use the certificate marker.]!red!
-
-          15. Take the 14 player cattle cards matching your color, shuffle
-              them, and place them face-down to the left of your player board.
-
-               [SOLO: Sam does not use player cattle cards. Instead, shuffle
-              Sam's cards and place them face-down near Sam's board.]!red!
-
-          16. Shuffle the 4 starting objective cards and deal one at random
-              to each player, returning the unused starting objective cards
-              to the box.
-
-               [SOLO: Deal Sam a starting objective card face-down near
-              his board.]!red!
-
-          17. Randomly determine a starting player, and receive your starting
-              money, cards and tokens as follows:
-
-               * 1st player: 6 dollars, 4 cards, 1 exchange token
-               * 2nd player: 7 dollars, 5 cards, 1 exchange token
-               * 3rd player: 8 dollars, 6 cards, 1 exchange token
-               * 4th player: 9 dollars, 7 cards, 1 exchange token.
-
-               **IMPORTANT:** On each player's first turn, discard down to 4
-              cards and place your herder onto any neutral building (even one
-              occupied by another player's herder).  Skip Phase A and go
-              directly to Phase B.
-
-               [SOLO: You are the first player. Sam does not receive any
-              starting money, cards or tokens.]!red!
-    - name: Game Turn
+          Then players should tally up their [final scores](#final_scoring).
       sections:
-        - name: Phase A - Move your Herder
-          text: |
-              [SOLO: Draw a Sam card.]!red!
+          - name: Phase A - Move your herder
+            id: phase_a
+            text: |
+                **NOTE: For your first turn of the game, instead of moving
+                your herder, instead place your herder onto any *neutral*
+                building on the board.  Also, don't forget to discard down
+                to 4 cards if you started the game drawing more than 4.**
 
-               Move your herder a number of steps based on your current step
-              limit. This begins at 3 or 4, but can be increased if discs
-              are removed from the Phase A section of your board.
+                Move your herder a number of steps up to your step limit.
+                Your step limit starts at 3, but can be increased by removing
+                discs from the Phase A section of your player board.  You 
+                must move your herder at leats one step.
 
-               If a trail is forked, you may choose which fork to use.
+                Each step is either a building, a hazard tile, an outlaw
+                tile, or Kansas City. If you reach Kansas City, you must
+                end your movement.
 
-               You must end your movement if you reach Kansas City.
+                If your herder passes over a Hazard tile or another player's
+                **private building** with a hand icon, you must pay a fee.
+                The amount to be paid is shown in the Phase A section of your
+                player board (or the player count tile).  If the hand is
+                on a hazard, the fee is returned to the supply.  If the hand
+                is on another player's private building, the fee is paid to 
+                that player.  If you don't have enough money to pay the fee,
+                you can continue moving, paying as much as you can; you do
+                not have to "pay back" any missed fees later.  You also do
+                not pay fees for your own private buildings.
 
-               You do not need to use your full movement; you can stop at
-              any step along the way. You must move at least 1 step.
+                 * In a 2-player game, the fee is $2 for both hand colors.
+                 * In a 3-player game, the fee is $2 for green hands, and $1
+                   for black hands.
+                 * In a 4-player game, the fee is $1 for green hands, and $2
+                   for black hands.
+          - name: Phase B - Use actions of your location
+            id: phase_b
+            text: |
+                Depending on your herder's location, the actions you resolve
+                are as follows:
 
-               A step is any space with a building, hazard, or outlaw in it.
+                1. A neutral building or a private building of your color:
+                
+                    Either use the [local actions](#local_actions) of the
+                    building tile (including any risk actions associated with
+                    the building's space), or take one [auxiliary action](#aux_actions).
 
-               If you enter or pass over a location with a black or green
-              hand, you must pay a fee, based on the amount shown on your
-              player board. If the hand is on a hazard or outlaw tile, you
-              pay the fee to the bank. If it on another player's building,
-              you pay the fee to that player. Ignore hands on buildings
-              that are yours.  If you do not have enough money to pay the
-              fee, you are not blocked from moving, but instead pay as much
-              as you can and continue moving (if desired).
+                2. A private building of another player, a hazard tile, or an
+                   outlaw tile:
 
-               [SOLO: Sam will always attempt to use the shortest path
-              possible, using the movement value showing on his card.
-              If tied, Sam will use the path with the lowest cost.
-              If still tied, Sam will use the path that will pay the player
-              the least amount of money. Any money payed to the player by
-              Sam comes from the bank.]!red!
-        
-        - name: Phase B - Actions
-          sections:
-              - name: Neutral building or own private building
-                text: |
-                    Either use the local actions of that tile or use one 
-                    single auxiliary action on your player board.
+                    Take one [auxiliary action](#aux_actions).
 
-                     Local actions are on the bottom of the building tile.
-                    If two actions are separated by a white slash, you must
-                    choose only one of them to resolve. Actions separated by
-                    full dividers can each be resolved individually.
+                3. Kansas City
 
-                     An Auxiliary action can only be performed once, even if
-                    you have removed both discs for that action.
+                    Carry out the following sub-phases in order:
 
-              - name: Hazard, outlaw, or another player's private building
-                text: |
-                    You may only use a single auxiliary action on your player
-                    board. You may only use the action once on this turn, even
-                    if you have removed both discs for that action.
+                    1. Foresight - Choose one of the "1" foresight tiles,
+                       and place it on the lowest available space of the
+                       relevant outlaw or hazard track.  Draw a new tile
+                       from the "1" bag to replenish the foresight track.
 
-              - name: Sam's Action (SOLO)
-                text: |
-                    [SOLO: Sam will take the action shown on the bottom of
-                    his card, even if he reaches Kansas City. In that case,
-                    resolve the action first, then resolve the Kansas City
-                    process described below.]!red!
+                    2. Foresight - Choose one of the "2" foresight tiles,
+                       and place it on the next available space of the job
+                       market. If the tile would be place where the job
+                       marker is, move the job marker down one space.
+                       Draw a new tile from the "2" bag and replenisch the
+                       foresignt track.
 
-              - name: Kansas City
-                text: |
-                    If you reach Kansas City, you must carry out all the
-                    following actions:
+                         * If the job marker crosses a yellow arrow, refill
+                           the cattle market to 7/10/13 cards, sorting them
+                           by color as specified in the setup instructions.
+                         * If the job marker moves off the bottom of the job
+                           market, place the job marker near your player board.
+                           After your turn is done, each other player will
+                           get one additional turn.
 
-                    1. Foresight 1: Choose one of the tiles below spot 1
-                       and move it to its corresponding section (hazard or
-                       outlaw).
+                    3. Foresight - Choose one of the "3" foresight tiles,
+                       and place it according to the rules listed above,
+                       depending on the type of tile it is.  Draw a new tile
+                       from the "3" bag and replenish the foresight track.
 
-                        [SOLO: Sam will always choose the bottom tile.]!red!
+                    4. Income - Total the values shown on the top-right corner
+                       of each **type** of cattle card in your hand.  This sum
+                       is called your **breeding value**.  Only one card of
+                       each type contributes to this value.
 
-                    2. Foresight 2: Choose one of the tiles below spot 2
-                       and move it to the job market.
+                        For each **permanent certificate** you have, incrase
+                       the breeding value by one.  Then, you can spend any
+                       number of **temporary certificates** by moving your
+                       **certificate marker** up the track any number of
+                       spaces and increasing your breeding value by that
+                       amount.
 
-                        [SOLO: Sam will always choose the bottom tile.]!red!
+                        Collect coins equal to the breeding value and set them
+                       aside temporarily.
 
-                    3. Foresight 3: Choose one of the tiles below spot 3
-                       and move it to its corresponding section (outlaw or
-                       job market).
+                        Discard all cards in your hand.
 
-                        [SOLO: Sam will always choose the bottom tile.]!red!
+                    5. Delivery - Choose a city with a **city value** equal to
+                       or less than your breeding value.  The chosen city cannot
+                       already have one of your disks on it (except Kansas City
+                       and New York City).  Take a disk from your player board
+                       and it on the city space.  If the city space has black
+                       corners, you may take the disk from anywhere on your
+                       player board; otherwise, the disk must be taken from a
+                       space on your player board with white corners only.
 
-                        **IMPORTANT** If placing a worker causes the job
-                        market token to cross a yellow arrow, replenish the
-                        cattle market by filling it to 7/10/13 cards (for
-                        2/3/4 players), sorting it by yellow, red, blue,
-                        brown and purple.
+                          * If you take a disk from the Phase A space of your
+                            player board that shows $3 above it, take $3 from
+                            the bank.
+                          * If you take a disk from the Phace C section of
+                            your player, you must immediatly pay $5.  If you
+                            do not have $5, you cannot take that disk.
+                          * If you place the disk on Kansas City, immediately
+                            gain $4.
+                          * If you place a disk such that you now have disks
+                            on both sides of a delivery action, you must now
+                            immediately resolve it.  **TODO DELVIERY ACTIONS**
 
-                    4. Income: Reveal your hand of cattle cards. Add up the
-                       total value of each **different** type of cattle card
-                       revealed to get your *breeding value*. If desired and
-                       able, you can increase this value by using permanent
-                       and temporary certificates.  Move the certificate
-                       marker up on your board for each temporary certificate
-                       used.
+                        If the city you delivered to is farther along the 
+                       railroad track than your engine, you must pay $1 to
+                       the supply for each cross located between your engine
+                       and the city. If your engine is at or beyond the city,
+                       you do not have to pay anything.
 
-                        Gain a number of dollars from the bank equal to your
-                       *breeding value*, and set it separately (to remind you
-                       of your *breeding value* during Delivery).
-
-                        Discard all revealed cards (even "duplicates" that
-                       did not add to your breeding value).
-
-                        [SOLO: Sam ignores this step.]!red!
-
-                    5. Delivery: Choose a city whose value is equal to or
-                       less than your final *breeding value*, and where you
-                       do not already have a disc, and take a disc from your
-                       player board and put it on the city space. 
-
-                        * A disc from a space on your board with white 
-                          corners can go on any city space.
-
-                        * A disc from a space with a black corner may only
-                          be placed on a city space with black corners.
-
-                        You may deliver to Kansas City or New York City
-                       any number of times, placing a disc on the city
-                       each time.
-
-                        If the city you are delivering to is farther along
-                       the railroad track than your engine, you must pay
-                       a number of dollars equal to the number of crosses
-                       between your engine and the city. Pay this amount
-                       to the bank. If the city is behind your engine, you
-                       pay nothing.
-
-                        If you place a disc on a city such that it is 
-                       adjacent to another city with your disc, trigger the
-                       delivery action in between those cities. If it is
-                       victory points, those are scored at the end of the
-                       game. Otherwise, draw an objective card from the
-                       display, and replenish it. If you activate multiple
-                       delivery actions, resolve them both, one at a time.
-
-                        Finally, place your herder to the horeseman space
-                       in the bottom left corner of the board, and
-                       replenish the 3 vacant foresight spaces.
-
-                        [SOLO: Sam will always place a discs on the next
-                       available city, starting with the city listed in the
-                       chosen difficulty. If this triggers a delivery action
-                       to draw an objective card, take the card farthest from
-                       the objective deck and place it near Sam's board.]!red!
-
-        - name: Phace C - Draw up to hand limit
-          text: |
-              If you have fewer cards than your current hand limit, draw
-              cards from your personal deck until you are back at your
-              hand limit. If you need to draw a card and your deck is empty,
-              then (and only then) reshuffle your discard pile to form a new
-              deck.
-
+                        Finally, take the money set aside, and move your herder
+                       to the start space at the bottom-right of the board.
+            sections:
+                - name: Local Actions
+                  id: local_actions
+                  text: Blah
+                - name: Auxiliary Actions
+                  id: aux_actions
+                  text: Blah
+          - name: Phase C - Draw up to your hand limit
+            id: phase_c
+            text: Blah
     - name: Final Scoring
-      text: |
-          Stuff
-    
-    - name: Sam Cards
-      text: |
-          HERE (break this out into sections)
-
-    - name: Miscellaneous Rules
-      text: |
-          STUFF HERE
+      id: final_scoring
+      text: Blah
