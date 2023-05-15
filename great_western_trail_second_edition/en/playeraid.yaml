@@ -11,6 +11,7 @@ sections:
       text: |
           This document shows information for both multiplayer and 
           [solo mode]!red!.  [Solo mode-specific text will be in red.]!red!
+          [Rules related to the Semminal variant will be in orange.]!orange!
           Expansion instructions are not found in this document.
     - name: Setup
       text: |
@@ -18,75 +19,59 @@ sections:
           player count; ie, A for 2 players, B for 3 players, C for 4 players.
           
           1.  Place the **game board** in the middle of the table.
-          2.  Shuffle the 9 **station master tiles**, placing one on each of
-              the 5 *station master spaces*.  Return the remaining 4 to the
-              box.
-          3.  Take the 7 **neutral building tiles** and either place them
-              on their corresponding *neutral spaces* on the board (recommended
-              for the first game), or shuffle them and place them randomly.
+          2.  Randomly place 5 **station master tiles** on the 
+              *station master spaces*.
+          3.  Place the 7 **neutral building tiles** on the A-F spaces of the board.
           4.  Place the **job market token** on the top dasked round space
               on the *job market*.
-          5.  Sort the **worker**, **hazard**, and **outlaw** tiles by the
-              number on their back, and place them in their corresponding
-              numbered *bags*.  These are the *Kansas City Supply*
-          6.  Draw 7 tiles from the "1" bag of the Kansas City Supply, and
-              place them on their corresponding spaces on the game board. Each
-              tile should be placed in the lowest-numbered available space
-              on its track.
-               * Outlaws are placed on the outlaw track in the middle of the
-                 board.
-               * Hazards are placed on the matching hazard track (flood, 
-                 drought, or rockfall).
-              If a tile cannot be placed, return it to the bag and draw a
-              new tile.
-          7.  Draw 3/5/7 tiles from the "2" bag, and place
-              them on the job market, starting from the top, going left to
-              right. Only place tiles on spaces for the player count.
-          8.  Fill the 6 *foresight* spaces in Kansas City by drawing 2 tiles
-              each from the "1", "2" and "3" bags, and placing them on their
-              respective spaces.
-          9.  Shuffle the **market cattle cards** and draw 7/10/13 cards, 
-              sorting them by color and placing them in this order: 
+          5.  Place the **worker**, **hazard**, and **outlaw** tiles in the bags
+              incidated by their backs.
+          6.  Draw 7 tiles from the **"1" bag** and place them on the corresponding
+              hazard or outlaw tracks (starting at lower numbered spaces).  Redraw
+              any tiles that can't be placed.
+          7.  Draw 3/5/7 tiles from the **"2 bag"** and place them on the job
+              market, top to bottom, left to right, on spaces matching the player
+              count. 
+          8.  Draw 2 tiles from each bag and place them on their respective
+              *foresight spaces*.
+          9.  Shuffle the **market cattle cards** and draw 7/10/13 cards to form
+              the market.  They should be sorted by color in this order:
               [Yellow]!yellow!, [Red]!red!, [Blue]!blue!, [Brown]!brown!,
               [Purple]!purple!.
           10. Shuffle the **objective cards**, and place them near the game
               board. Draw 4 of these cards and place them a column beneath
               the deck.
-          11. Place the **coins** and **exchange tokens** accessible to all
-              players to form the supply.
-          12. Each player chooses a player color, taking the **player board**
-              for that color. If playing with 2 or 3 players, also take the 
-              **player count** tile for the appropriate player count, using it
-              to cover the *Phase A* section at the top of your player board.
-          13. Each player takes the 12 **private building tiles** for your
-              color. For the first game, use the "A" side for all buildings.
-              In subsequent games, pick any mix of "A" and "B" sides using any
-              method you desire. All players should use the same "A" and "B"
-              sides for each building.
-          14. Each player takes the other pieces of your player color:
-               * 14 **discs**, placed to cover the marked spaces on your
-                 player board.
+          11. Place the **coins** and **exchange tokens** into a supply.
+          12. Each player chooses a player color, and takes the **player board**
+              (and **player count tile**, if playing with 2 or 3 players) for the
+              chosen color.
+          13. Each player takes the 12 **private building tiles** of their color.
+              Choose any mix of "A" or "B" sides for buildings; all players should
+              use the same mix.
+          14. Each player takes the other pieces of their color:
+               * 14 **discs**, placed to cover the marked spaces on their player
+                 board.
                * 1 **engine**, placed on the starting space of the *railroad
                  track* on the game board.
                * 1 **certificate marker**, placed on the "0" space of the
-                 certificate track on your player board.
-               * 1 **herder**, placed next to your player board for now.
-          15. Each player takes the 14 **player cattle cards** matching your
-              color, shuffles them and places them in a deck near your
+                 certificate track on their player board.
+               * 1 **herder**, placed next to their player board for now.
+          15. Each player takes the 14 **player cattle cards** matching their
+              color, shuffles them and places them in a personal deck near their
               player board.
           16. Shuffle the **starting objective cards** and deal one at random
-              to each player, and is place face-up near your player board.
+              to each player, placed face-up near their player board.
           17. Randomly determine a **starting player**. Starting with the 
               first player and proceeding clockwise, each player collects the
-              specified number of coins and exchange tiles, and draws the
+              specified number of dollars and exchange tiles, and draws the
               specified number of cards from their cattle deck: 
                * 1st player: $6, 1 exchange tile, 4 cards
                * 2nd player: $7, 1 exchange tile, 5 cards
                * 3rd player: $8, 1 exchange tile, 6 cards
                * 4th player: $9, 1 exchange tile, 7 cards
 
-              Before your first turn, if you have more than 4 cards, you must
-              discard down to 4 cards.
+              Players drawing more than 4 cards should discard down to 4 prior
+              to their first turn.
     - name: Gameplay
       text: |
           Beginning with the 1st player and proceding clockwise, each player
@@ -105,136 +90,98 @@ sections:
           - name: Phase A - Move your herder
             id: phase_a
             text: |
-                **NOTE: For your first turn of the game, instead of moving
-                your herder, instead place your herder onto any *neutral*
-                building on the board.  Also, don't forget to discard down
-                to 4 cards if you started the game drawing more than 4.**
+                **NOTE: For your first turn, instead of moving your herder, 
+                instead place it directly onto any *neutral building* on the
+                board.**
 
                 Move your herder a number of steps up to your step limit.
                 Your step limit starts at 3, but can be increased by removing
-                discs from the Phase A section of your player board.  You 
+                discs from the Phase A section of your player board. You 
                 must move your herder at leats one step.
 
-                Each step is either a building, a hazard tile, an outlaw
-                tile, or Kansas City. If you reach Kansas City, you must
-                end your movement.
+                A step is a building tile, hazard tile, outlaw tile, or 
+                Kansas City. You must stop moving at Kansas City.
 
-                If your herder passes over a Hazard tile or another player's
-                **private building** with a hand icon, you must pay a fee.
-                The amount to be paid is shown in the Phase A section of your
-                player board (or the player count tile).  If the hand is
-                on a hazard, the fee is returned to the supply.  If the hand
-                is on another player's private building, the fee is paid to 
-                that player.  If you don't have enough money to pay the fee,
-                you can continue moving, paying as much as you can; you do
-                not have to "pay back" any missed fees later.  You also do
-                not pay fees for your own private buildings.
-
-                 * In a 2-player game, the fee is $2 for both hand colors.
-                 * In a 3-player game, the fee is $2 for green hands, and $1
-                   for black hands.
-                 * In a 4-player game, the fee is $1 for green hands, and $2
-                   for black hands.
+                Pay any fees for black and green hands shown on tiles you
+                move onto or through; the amount paid is shown on your player
+                board or player count tile.  Fees go to the player that own
+                the private building, or to the supply for hazards and outlaws.
+                Do not pay fees for your own buildings.
           - name: Phase B - Use actions of your location
             id: phase_b
             text: |
-                Depending on your herder's location, the actions you resolve
-                are as follows:
+                Resolve actions based on where your herder ends its movement:
 
                 1. A neutral building or a private building of your color:
                 
                     Either use the [local actions](#local_actions) of the
-                    building tile (including any risk actions associated with
-                    the building's space), or take one [auxiliary action](#aux_actions).
+                    building tile or take one single [auxiliary action](#aux_actions).
 
                 2. A private building of another player, a hazard tile, or an
                    outlaw tile:
 
-                    Take one [auxiliary action](#aux_actions).
+                    Take one single [auxiliary action](#aux_actions).
 
                 3. Kansas City
 
                     Carry out the following sub-phases in order:
 
-                    1. Foresight - Choose one of the "1" foresight tiles,
-                       and place it on the lowest available space of the
-                       relevant outlaw or hazard track.  Draw a new tile
-                       from the "1" bag to replenish the foresight track.
+                    1. Foresight - choose a "1" foresight tile, and place
+                       it on the appropriate place on the board.  Draw a new
+                       "1" tile from the bag, and place it on the foresight
+                       space.
 
-                    2. Foresight - Choose one of the "2" foresight tiles,
-                       and place it on the next available space of the job
-                       market. If the tile would be place where the job
-                       marker is, move the job marker down one space.
-                       Draw a new tile from the "2" bag and replenisch the
-                       foresignt track.
+                    2. Foresight - Same as above, but for the "2" foresight
+                       space.
 
-                         * If the job marker crosses a yellow arrow, refill
-                           the cattle market to 7/10/13 cards, sorting them
-                           by color as specified in the setup instructions.
-                         * If the job marker moves off the bottom of the job
-                           market, place the job marker near your player board.
-                           After your turn is done, each other player will
-                           get one additional turn.
+                    3. Foresight - Same as above, but for the "3" foresight
+                       space.
 
-                    3. Foresight - Choose one of the "3" foresight tiles,
-                       and place it according to the rules listed above,
-                       depending on the type of tile it is.  Draw a new tile
-                       from the "3" bag and replenish the foresight track.
+                        If the job marker crosses a yellow arrow in steps 2 or
+                       3, refill the cattle market to 7/10/13 cards, sorting 
+                       them by color as in setup. If the job marker goes off
+                       the bottom of the board, the current player takes it and
+                       the end-game is triggered.
 
-                    4. Income - Total the values shown on the top-right corner
-                       of each **type** of cattle card in your hand.  This sum
-                       is called your **breeding value**.  Only one card of
-                       each type contributes to this value.
+                    4. Income - Total the values at the top of each **type**
+                       of cattle card in your hand as your **breeding value**.
+                       Only one card of each type contributes to this total.
+                       Increase this total for each **permanent certificate**
+                       you own, and spend any number of **temporary certificates**
+                       to increaset the total by that amount.
 
-                        For each **permanent certificate** you have, incrase
-                       the breeding value by one.  Then, you can spend any
-                       number of **temporary certificates** by moving your
-                       **certificate marker** up the track any number of
-                       spaces and increasing your breeding value by that
-                       amount.
+                        Collect dollars equal to the breeding value and set them
+                       aside.
 
-                        Collect coins equal to the breeding value and set them
-                       aside temporarily.
+                        Discard your entire hand.
 
-                        Discard all cards in your hand.
+                    5. Delivery - Choose an accessible city (one whose city
+                       value is not more than your breeding value). Only Kansas
+                       City and New York City can have multiple discs. Take a
+                       disc from your player board and place it on the city
+                       crest. You can only take a disc from a black-cornered
+                       spot of your board if the city crest also has black corners.
 
-                    5. Delivery - Choose a city with a **city value** equal to
-                       or less than your breeding value.  The chosen city cannot
-                       already have one of your discs on it (except Kansas City
-                       and New York City).  Take a disc from your player board
-                       and it on the city space.  If the city space has black
-                       corners, you may take the disc from anywhere on your
-                       player board; otherwise, the disc must be taken from a
-                       space on your player board with white corners only.
+                           * Gain $3 if taken from the $3 spot of the Phase A
+                             section of your board.
+                           * Pay $5 if taken from one of the spaces in the 
+                             Phase C section of your board.
 
-                          * If you take a disc from the Phase A space of your
-                            player board that shows $3 above it, take $3 from
-                            the bank.
-                          * If you take a disc from the Phace C section of
-                            your player, you must immediatly pay $5.  If you
-                            do not have $5, you cannot take that disc.
-                          * If you place the disc on Kansas City, immediately
-                            gain $4.
-                          * If you place a disc such that you now have discs
-                            on both sides of a delivery action, you must now
-                            immediately resolve it.  **TODO DELVIERY ACTIONS**
+                        Gain any immediate benefit by placing the disk, shown
+                       on the city, or by placing a disc so both sides of a
+                       green arrow have a disc.
 
-                        If the city you delivered to is farther along the 
-                       railroad track than your engine, you must pay $1 to
-                       the supply for each cross located between your engine
-                       and the city. If your engine is at or beyond the city,
-                       you do not have to pay anything.
+                        Pay $1 for each cross between your engine and the city
+                       if it is farther along the track than your engine.
 
-                        Finally, take the money set aside, and move your herder
-                       to the start space at the bottom-right of the board.
-            
+                        Put the remaining set-aside money in your rupply, and
+                       move your herder to the start space.
+
           - name: Phase C - Draw up to your hand limit
             id: phase_c
             text: |
-                Draw up to your hand limit. Your hand limit starts at 4, but
-                can be increased by removing discs from the Phase C section
-                of your player board. (Note that it costs $5 to remove those
-                discs).
+                Draw up to your hand limit. This starts at 4, and can be
+                increased for each Phase C disc taken from your player board.
 
     - name: Final Scoring
       id: final_scoring
@@ -247,29 +194,21 @@ sections:
           2.  Gain the sum of the VP printed on each of your private building
               tiles on the board.
           3.  Gain the sum of VP that you have unlocked with your discs on
-              city crests (ie, you have a disc on each side of them).  Some
-              of these will be negative points.  Also subtract VP for each
-              of your discs on Kansas City, and add VP for each of your discs
-              on New York City.
+              city crests, including positive and negative VP values.
           4.  Gain the sum of VP printed next to each train station that has
               your disc on it.
           5.  Gain the sum of VP printed on your collected hazard tiles.
           6.  Gain the sum of VP printed on any cattle cards in your hand, 
               discard pile, and draw stack.
-          7.  Find any objective cards still in your hand, discard pile, or
-              draw stack. Remove any of these from the game that you wish,
-              and put the rest into your play area.  Then, for each objective
-              in your play area (including those played earlier), either gain
-              the positive VP printed on the card (if you meet the tasks for
-              that objective), or lose the negative VP printed on the card
-              (if you do not).  Remember, each card must have its tasks
-              fulfilled separately.  For example, a single collected Outlaw
-              tile cannot be used to fulfil two separate Outlas tasks.
-          8.  Gain the sum of VP generated by the tasks on station master tiles
-              you have collected. The tasks on these tiles are independent of
-              the tasks for scoring objective. For instance, an Outlaw tile
-              can be used to fulfil an objective task, as well as a station
-              master tile task.
+          7.  Either play or remove any objective cards still in your hand,
+              draw stack, or discard pile. For each objective played (either
+              now or previously), gain the postiive VP value if you fulfiled all
+              the tasks shown, or lose the negative VP value if you did not. 
+              **Remember, each task must be met separately; the same item
+              cannot be used to fulfill multiple tasks.**
+          8.  Gain the sum of VP generated by station master tiles you collected.
+              Items used to score objective tasks **can** be used to score 
+              station master tiles.
           9.  Gain 4 VP for each worker placed on the 5th or 6th space of your
               player board.
           10. Gain 3 VP if you removed the disc with the VP badge in the Phase
@@ -278,136 +217,90 @@ sections:
 
            Whoever has the most total VP wins the game. If tied, the tied players
           share the victory.
+
     - name: Actions
       sections:
           - name: Local Actions
             id: local_actions
             text: |
-                Below is a description of the various actions you may find.
-                If the game piece shows two actions separated by a slash, you
-                choose **one** of those actions to resolve.
+                Below is a description of the more common actions you may find
+                on building tiles. 
 
-                - Discarding actions: Discard the item shown with a red arrow
-                  to gain the reward listed next to it. If there is a +
-                  between the rewards, you gain both rewards.
-                    - Certificate: Move your certificate marker one space down.
-                    - Coin: Gain the specified number of dollars.
-                    - Train: Move your engine the specified number of spaces forward
-                      (green arrow) or backward (red arrow).
+                 * Discarding actions: Discard the item shown with a red arrow
+                   to gain the reward listed next to it. If there is a +
+                   between the rewards, you gain both rewards.
+            
+                 * Hire one worker: Hire a worker from the job market by paying
+                   the cost next to that worker's row, then place the worker on
+                   your board. You must pay more (red number) or less (green number)
+                   moeny if there is a coin icon next to the worker icon.
+
+                    If you already have 6 workers of a particular type, you cannot
+                   hire more workers of that type.
+
+                    If you place a worker onto a space that has an immediate action,
+                   you must either immediately perform that action or forfeit it.
                 
-                - Hire one worker: Hire a worker from the job market by paying
-                  the cost next to that worker's row, then place the worker in
-                  the left-most available spot on the related row of your player
-                  board. If there is a coin with a number next to the worker
-                  icon on the action:
-                    
-                      - Red (negative) number: You must spend this many additional
-                        dollars to hire the worker.
-                      - Green (positive) number: You spend this many fewer dollars
-                        to hire the worker.
+                 * Buy cattle from the cattle market: Use your cowboys to
+                   buy cattle from the market (using the key on the board for
+                   details on cost). You can also use a single cowboy to add 2
+                   more cattle to the cattle market.
 
-                   If you already have 6 workers of a particular type, you cannot
-                  hire more workers of that type.
-
-                  If you place a worker onto a space that has an immediate action,
-                  you must either immediately perform that action or forfeit it.
+                    Add any purchased cattle cards to your discard pile.
                 
-                - Buy cattle from the cattle market: Use your cowboys to buy cattle
-                  cards from the cattle market, as described below.  You can also
-                  use any number of your cowboys to draw 2 additional cattle cards
-                  from the market cattle stack and add them to the market at any
-                  time during this action.  Each cowboy can only be used once per
-                  action.
+                 * Move your engine forward: Move your engine forward along the
+                   track up to the specified number of spaces. Ignore spaces with
+                   another player's engine. You can move along turnout spaces as
+                   well.
 
-                      - Use 1 cowboy to buy one cattle card with a breeding value of 3 
-                        for $6 **or** buy one "Shorthorn" cattle card for $12.
-                      - Use 2 cowboys to buy one cattle card with a breeding value
-                        of 3 for $3 **or** buy one "Hereford" cattle card for $12
-                      - Use 3 cowboys to buy two cattle cards each with a breeding
-                        value of 3 for a total of $5 **or** buy one "Shorthorn"
-                        cattle card for $6
-                      - Use 4 cowboys to buy one "Hereford" cattle card for $6
-                      - Use 5 cowboys to buy two "Shorthorn" cattle cards for a
-                        total of $8.
+                    If you end on a station space, you can upgrade the station by
+                   paying the cost shown. If you do, and there is a station master
+                   tile, you can take the tile by replacing it with a worker on
+                   your player board; gain or forfeit any immediate reward shown
+                   on the station space and/or station master tile.
 
-                  Add any purchased cattle cards to your discard pile.
-                 
-                - Move your engine forward: Move your engine forward along the
-                  track as many spaces as shown. If it shows an engineeer next to
-                  it, move it one space for each engineer on your player board.
-                  When moving your engine, you can move along a turnout space.
-                  You can choose to move fewer spaces than allowed. If your
-                  engine ends movement next to a train station, you must 
-                  immediately decide whether to **upgrade** that train station.
-                  To do this, pay the cost shown next to the station, and place
-                  a disc from your player board (paying attention to the color
-                  of the corners).
-                  
-                   If there is a station master tile, you may
-                  also choose to take it and put it in your play area; if you
-                  do, you must take one of your workers from your board and
-                  place it where the station master tile was. The worker used
-                  must be the right-most worker for that row on your board.
-                  If the station master tile has an immediate effect, resolve it
-                  now.
+                    If your engine reaches the end of the track, you can optioanlly
+                   upgrade the station as normal, then move your engine any
+                   number of spaces backwards (minimum of 1) and gain $3. If this
+                   backward move ends on a train station, you can upgrade it,
+                   even if you upgraded the final station.
 
-                   If your engine reaches the last space of the railroad track,
-                  it must end its movement there (and you can upgrade the
-                  train station if you wish). Then, you must move your 
-                  engine at least one space backward (but can move it to any
-                  free space on the track, even a turnout space). Then gain $3.
-                  If you move your engine to a train station, you may choose
-                  to upgrade it immediately, using the $3 you just received if
-                  you want.
+                 * Gain one objective card: Choose one of the 4 face-up objective
+                   cards or draw the top objective card from the deck. Place this
+                   card in your discard pile. Replenish the face-up objectives if
+                   needed.
 
-                - Gain one objective card: Choose one of the 4 face-up objective
-                  cards or draw the top objective card from the deck. Place this
-                  card in your discard pile.
+                    If you have an objective in your hand on your turn, you can play
+                   it to immediately gain the reward shown on the card. Remember,
+                   by playing it, you must either fulfill the objective at the end
+                   of the game or lose points.
 
-                   If you have an objective card in your hand on your turn, you
-                  can play it before Phase A, or before or after any action in
-                  phase B (but not during Phase C). Place the objective card in
-                  your play area, and gain the immediate action shown at the 
-                  top-left of the card. If you do this, you must fulfil the
-                  tasks shown on the card at the end of the game, or lose VP.
+                 * Build a private building. You can either place a new building with
+                   a value not more than the number of builders you have, or upgrade
+                   a prevoius building with a value difference not higher than the
+                   number of builders (return the old building to the box)
 
-                - Place one of your private buildings: Choose a private building
-                  that you have not yet used, and either place it onto an **empty**
-                  *building space* on the board, or **replace** one of your
-                  previously placed building tiles on the board. You must have
-                  enough builders and be able to pay the cost.
+                    For each builder used, you must also pay $2.
 
-                   The number of builders required is shown in the top-left corner
-                  of the building tile. When placing a new building, you must
-                  have at least that many builders on your player board. If
-                  replacing an existing building, you must have at least as many
-                  builders as the *difference* between the new building and the
-                  previous one. If the new building requires fewer workers, then
-                  you can always place it.
+                 * Perform one single or double [auxiliary action](#aux_actions).
 
-                   For each builder used, you must also pay $2.
+                 * Collect bounty for outlaws: Remove one outlaw tile of your choice
+                   from the board, and collect the reward shown above that tile.
 
-                - Perform one single or double [auxiliary action](#aux_actions).
+                 * Gain an exchange token: Gain an exchange token from the supply.
+                   Exchange tokens can be spent at **any time** to draw up to 2 
+                   cards from your personal stack, then discard the same number
+                   of cards.
 
-                - Collect bounty for outlaws: Remove one outlaw tile of your choice
-                  from the board, and collect the reward shown above that tile. You
-                  do not have to choose the "highest" outlaw tile. You cannot 
-                  perform this action if there are no outlaws on the board. Place
-                  the chosen tile near your player board.
+                 * Remove a hazard: Remove one hazard tile of your choice from any
+                   hazard section and place it near your player board. If the action
+                   shows a cost next to it, you must pay the cost before taking
+                   the hazard tile.
 
-                - Gain an exchange token: Gain an exchange token from the supply.
-                  Exchange tokens can be spent at **any time** to draw up to 2 
-                  cards from your personal stack, then discard the same number
-                  of cards.
-
-                - Remove a hazard: Remove one hazard tile of your choice from any
-                  hazard section and place it near your player board. If the action
-                  shows a cost next to it, you must pay the cost before taking
-                  the hazard tile.
-
-                - Move your herder forward: Move your herder at least 1 step and
-                  not more than the number shown on the action. After moving,
-                  you must then perform the steps of Phase B again.
+                 * Move your herder forward: Move your herder at least 1 step and
+                   not more than the number shown on the action. After moving,
+                   you must then perform the steps of Phase B again. Any actions 
+                   not yet used on the previous space are forfeit.
 
           - name: Auxiliary Actions
             id: aux_actions
