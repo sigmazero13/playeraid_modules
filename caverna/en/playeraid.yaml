@@ -1,0 +1,415 @@
+name: "Caverna: The Cave Farmers"
+description: Lead a clan of dwarves to explore, farm, and, of course, mine!
+enabled: true
+version: 1.0
+bgg_id: 102794
+text_type: markdown
+expansions:
+credits: Scott Lewis
+sections:
+    - name: Setup
+      sections:
+          - name: Personal Playing Areas
+            text: |
+              * Take a Home board
+              * Choose a color, and take the 5 Dwarfs and 3 Stables of that color
+              * Place 2 Dwarfs in the Entry-level dwelling on the Home board
+              * Place the remaining 3 Dwards and 3 Stables as a personal supply
+              * Take one of each of the 2 Overview cards
+              * Randomly determine first player, who takes the Starting Player marker
+              * Take food as follows:
+                  * 1st and 2nd player: 1 food
+                  * 3rd player: 2 food
+                  * All others: 3 food
+                  * Solo: Start with 2 food
+          - name: Game Boards, Supply, etc.
+            text: |
+              ## Game Boards
+                * Place the two single-sided basic game boards with Round spaces
+                  1-3 and 4-12 next to each other. These are both marked "1-7" at
+                  the top of the boards.
+                * Shuffle the Harvest markers and place them face-down (grey rune)
+                  on Round spaces 6-12, one per space.
+                    * 2-player: remove one "green leaf" Harvest marker first, and
+                      leave space 9 empty when placing the rest.
+                * Place the "Harvest events" card near the boards.
+                * Place the third basic game board to the left of the other two,
+                  turned to the appropriate side based on number of players
+                  (1-3 or 4-7).
+                * If playing with 5-7 players, place the larger additional board,
+                  turned to the approrpiate side (5, or 6-7), to the left of the
+                  other boards.
+                * If playing with 3 or 7 players, place the smaller additional board,
+                  turned to the appropriate side (3 or 7), to the left of the other
+                  boards.
+              
+              ## Supply Boards
+                * Place the supply boards near the other boards, chosen sides up.
+                    * One side is for the introductory game, the other for the full
+                      game.
+                * Place the Furnishing tiles on the appropriate spaces.
+                    * Place a stack of ordinary "Dwelling" tiles on the marked space,
+                      setting the rest aside as a reserve if needed.
+
+              ## Action Space Cards
+                * Shuffle the 12 Action space cards, face-down.
+                    * 2-player: remove the "Exploration" card with the "Level 4
+                      expedition" before shuffling.  Cover the Round 9 space with
+                      a "Skip Round 9" Dwarf card
+                    * Solo: Instead of shuffling the cards, place the cards face
+                      down on the game board as follows:
+                        1. Blacksmithing
+                        2. Sheep farming
+                        3. Ore mine construction
+                        4. Wish for children
+                        5. Donkey farming
+                        6. Ruby mine construction
+                        7. Ore delivery
+                        8. Family life
+                        9. "Skip round 9" card
+                        10. Ore trading
+                        11. Adventure
+                        12. Ruby delivery
+                * Sort the stack as follows:
+                    * Put the 3 stage 4 cards on the bottom
+                    * Put the 3 stage 3 cards on the stack
+                    * Put the 2 ordinary stage 2 cards on the stack
+                    * Place the "Wish for Children/Urgent Wish for Children" card
+                      on the stack
+                    * Place the 3 stage 1 cards on top
+
+              ## Landscape tiles and other components
+                * Sort the landscape tiles by type into separate stacks.
+                * Separate the other components by type into separate piles.
+                    * Weapon counters do not need to be sorted by number, except
+                      for ease of finding them.
+    - name: Gameplay
+      sections:
+          - name: Game Round
+            sections:
+                - name: 1) Add a new Action Space
+                  text: |
+                    Turn over the next action card and put it on the next empty
+                    Roundspace.  If there is a Harvest marker on the space, flip
+                    it over as well.
+
+                      * Solo and 2-player: Skip Round 9 entirely and go straight
+                        to Round 10
+                      * Round 4: Place the "Wish for Children" card face-up onto
+                        this space.
+                      * "Family Life": When this card is placed, also flip the
+                        "Wish for Children" card to "Urgent Wish for Children".
+
+                - name: 2) Replenish accumulating spaces
+                  text: |
+                    For any Action spaces with a circle and and arrow, place
+                    the indicated number of goods onto the card.  If there
+                    are two numbers, place the larger number if there are no
+                    resources on the card; otherwise, place the smaller number.
+
+                      * Example: Logging has a circle with 3 (1) wood.  If there
+                        is already wood on the card, only place 1 additional wood.
+                        If the card is empty, place 3 wood on the card.
+
+                    All goods come from the general supply.  There is no limit
+                    to the number of goods that can be on the card.  Use the
+                    multiplication markers if necessary.
+
+                      * Solo: Before replenishing a space, if there are already 
+                        more than 6 goods on the card, remove all goods on the
+                        card and return them to the supply.  Then replenish as
+                        normal. You can prevent this by spending 1 Ruby per
+                        card you wish to preserve for that round.
+
+                      * 2-Player: The Ruby mining space does not begin to accumulate
+                        rubies until Round 3, as shown on the space.
+
+                - name: 3)Work phase
+                  text: |
+                    Beginning with the Starting player and going clockwise, players
+                    take turns placing Dwarfs. Take a single Dwarf from your cave
+                    and place it on an **unoccupied** Action space.  Carry out the
+                    depicted action immediately.  Play continues until all Dwarfs of
+                    all players have been placed.
+
+                    If you have some Dwarfs with weapons, you must place Dwarfs with
+                    weapons first; then, Dwarfs with lower-numbered weapons must be
+                    placed before higher-numbered weapons. You may spend a Ruby to
+                    place a Dwarf out-of-order.
+
+                    Wood, Stone, Ore, Grain, Vegetable, Food and Rubies are placed in
+                    front of you in your supply.  Animals must be placed on your
+                    Home Board (see Animal Husbandry).  Animals can be converted to
+                    Food immediately.
+
+                    You must take at least one of the actions on the card you place
+                    the Dwarf on.
+
+                    If a card says "either ... or" you must choose one of the actions
+                    shown.  If a card says "and/or" or "and then/or", you can do
+                    any or all of the actions shown.  If it says "and then", you must
+                    do the actions in the specified order; otherwise, you can choose
+                    the order.
+                
+                - name: 4) Return home
+                  text: |
+                    Remove your Dwarfs from the game boards and return them to their
+                    Dwellings.  Each Dwarf must have an available room.  Other than
+                    that, it doesn't matter where you put them.
+
+                - name: 5) Harvest time
+                  text: |
+                    Look at the icon of the current Round space's Harvest token (or
+                    pre-printed icon).  If there is no icon, skip this phase.  If
+                    there is a "red question mark", place the token on the top-most
+                    empty space of the Harvest Event card, and resolve the effect
+                    shown.
+
+                    If there is a "green leaf", perform the following harvest sub-phases:
+
+                      1. **The Field Phase**. Remove 1 Grain or Vegetable token from each
+                         sown Field on your Home board and place it in your supply.
+                      2. **The Feeding Phase**. You must pay 2 Food per Dwarf in your cave.
+                         If the Dwarf was just added *during that round*, only pay 1 Food
+                         for that Dwarf.  If you do not have enough Food, you may convert
+                         goods into Food, or take 1 Begging marker for each Food you did
+                         not pay.
+                      3. **The Breeding Phase**. If you have at least 2 Farm animals of the
+                         same type, you take exactly 1 additional animal of that type and
+                         add it to your Home board. If you cannot accommodate it, you cannot
+                         convert it to Food.  All new animals are gained at the same time.
+                           * Dogs are not considered Farm animals and do not breed.
+                           * It doesn't matter where the "parent" animals are on your board.
+          - name: Actions
+            sections:
+                - name: Twin Tiles
+                  text: |
+                    Placed from "Excavation", "Drift mining", "Clearing", 
+                    "Sustenance", and "Slash-and-burn".  Take the depicted
+                    twin tile and place it so it fully covers 2 empty spaces
+                    in your Mountain or Forest. They cannot overlap other tiles,
+                    or go off the board (unless you have a Furnishing that
+                    allows otherwise).
+
+                    If you cover a space with a Food or Boar icon, immediately
+                    take the depicted goods.
+
+                    Tiles must be placed adjacent to an existing tile (including
+                    the pre-printed tiles).
+                - name: Sow
+                  text: |
+                    Take a Grain or Vegetable, and place it in an emtpy Field
+                    on your board.  If it is Grain, place 2 additional Grain
+                    from the general supply on top of it; if it is a Vegetable,
+                    place 1 additional Vegetable from the general supply on top.
+
+                    With 1 "Sow" action, you can plant up to 2 Grain and/or 2
+                    Vegetables with one action.
+                - name: Family Growth
+                  text: |
+                    Take a Dwarf from your personal supply and place it on top
+                    of the Dwarf taking this action.  You must have an available
+                    Dwelling to do this (i.e., have enough so that during Phase 4
+                    you can accommodate each Dwarf in your Cave.)
+
+                    This Dwarf cannot be used this round. When feeding Dwarfs,
+                    you only need to pay 1 Food for the new Dwarf this round.
+
+                    You cannot normally have more than 5 Dwarfs.
+                - name: Furnish a cavern/dwelling
+                  text: |
+                    Choose one of the available Furnishings, pay the building
+                    costs shown, and place the Furnishing on an empty Cavern in
+                    your Mountain.  You must have an available Cavern to use
+                    this action.  Furnishings cannot be placed on a Tunnel,
+                    Mine, or empty Mountain space.  Once place, a Furnishing
+                    cannot be removed or built over.
+
+                    Except for the ordinary Dwelling, there is only one copy of
+                    each Dwelling.  Ordinary Dwellings are meant to be unlimited.
+
+                    If the action says "Furnish a dwelling", follow these same
+                    rules, except only Dwellings may be placed.
+                - name: Goods
+                  text: |
+                    If the action shows a good with a +X next to it, take the
+                    depicted number of goods from the general supply.  If there
+                    are goods on the card itself, take those goods.
+
+                    If the +X is depicted alongside a tile placement, you only
+                    get the goods if you place the tile as depicted.
+
+                    Some actions give you a number of goods for each of a
+                    particular tile you have on your board.  If you have no
+                    tiles of that type, you may still take the accumulated
+                    goods already on the card.
+
+                    Animals are placed on your Home board (see Animal Husbandry).
+                    All other goods are placed in your personal supply.
+                - name: Ore mine construction
+                  text: |
+                    Place an Ore mine twin tile on top of two Tunnel spaces in
+                    your mountain.  The Tunnels can be on different tiles. You
+                    may *not* place an Ore mine tile on top of a Deep tunnel
+                    (found on the tile along with the Ore mine).
+                - name: Ruby mine construction
+                  text: |
+                    Place a Ruby mine tile on top of a Tunnel or a Deep Tunnel
+                    space in your Mountain.
+                - name: Ore trading
+                  text: |
+                    You may exchange 2 Ore for 2 Gold and 1 Food from the general
+                    supply.  You may do this up to 3 times with one action.
+                - name: Weekly Market
+                  text: |
+                    In addition to gaining Gold as normal, you may gain 1 of
+                    each of the types of tokens shown by exchanging the specified
+                    amount of Gold.  You can spend any Gold you have, and do
+                    not have to spend all you are able to.  Animals gained may
+                    be converted to Food immediately.
+
+                    You may get "change" for higher-denominations of Gold.
+                - name: Build fences
+                  text: |
+                    Spend the amount of Wood shown to place a small or large
+                    pasture tile on top of 1 or 2 Meadow spaces on your board.
+                    You cannot combine or split up existing Pasture tiles.
+                - name: Build stables
+                  text: |
+                    Spend 1 Stone to place a Stable on a Forest, Meadow, or
+                    Pasture space.  If a Forest becomes a Meador, or a Meadow
+                    becomes a Pasture, the Stable remains in that space.
+
+                    Once placed a Stable cannot be moved or removed.  Placing
+                    a Stable in the Forest does not trigger gaining Food or
+                    Boars.
+                - name: Forge a weapon
+                  text: |
+                    Spend the depicted number of Ore, and place a weapon token
+                    with the specified value on top of the unarmed Dwarf taking
+                    this action.  If the Dwarf is already armed, this action is
+                    not used; you cannot use it to "upgrade" their weapon.
+                - name: Expedition
+                  text: |
+                    Gain loot, based on the level of Expedition shown in the
+                    action and the strength of the weapon the placed Dwarf has.
+                    Unarmed Dwarfs cannot use this action.
+
+                    On the Expedition loot Overview card, you will find a list of
+                    loot you can gain.  You can gain any loot with a depicted weapon
+                    strength less than or equal to your Dwarf's weapon strength.
+                    You may take a number of loot (following this restriction) equal
+                    to the level of Expedition, but you cannot take the same exact
+                    loot twice for the same action (but can take two different loot
+                    with the same minimum weapon strength).
+
+                    Goods are taken as normal.
+
+                    The "after Expedition all Weapons +1" will give ALL your armed
+                    Dwarfs +1 to their weapon strenth (including the Dwarf used for
+                    the Expedition).
+
+                    Tiles or actions chosen must be placed or resolved immediately.
+
+                    Breeding animals requires you to have at least 2 of that type
+                    of animal.
+
+                    After collecting the chosen loot, the Dwarf taking this action
+                    increases their weapon strength by 1 (or 2, if the "Weapon +1"
+                    loot was taken.)
+                - name: Starting Player
+                    Take the Starting Player marker.  You will be the Starting player
+                    beginning next round.  This is the only way the Starting player
+                    marker will change hands.
+                - name: Imitation
+                    Pay the indicated food, and take the action of another occupied
+                    space, as if your Dwarf was placed there.  Do not place your
+                    Dwarf on the chosen space.
+
+                    The Starting Player space cannot be chosen by this action, nor
+                    can a space occupied by one of your own Dwarfs.
+          - name: Rubies
+            text: |
+              Rubies are sort of a "wild" good, and can be used for many
+              things.  One of the Overview cards shows a full list of how
+              you can use them.  You can do this at any time during your turn.
+
+                * You can spend 1 ruby to gain 1 of any of the following:
+
+                  * Dog
+                  * Sheep
+                  * Donkey
+                  * Boar
+                  * Wheat
+                  * Vegetable
+                  * Wood
+                  * Stone
+                  * Ore
+                  * Small Meadow tile
+                  * Small Field tile
+                  * Small Tunnel tile
+
+                * You can spend 1 ruby and 1 Food to gain 1 Cattle.
+
+                * You can spend 2 rubies to gain a Small Cavern tile.
+
+                * You can spend 1 ruby to place an Armed Dwarf out-of-order
+
+                * Solo: You can spend 1 ruby to prevent a card with more than
+                  6 resources from being cleared.
+
+              Tiles gained must be placed onto an empty Forest or Mountain
+              space on your board immediately, adjacent to another tile.
+
+          - name: Animal Husbandry
+            text: |
+              You must have enough space on your board to place all the Farm animals
+              you gain.  Dogs do not have to have space on your Board.  The following
+              spaces can hold animals:
+              
+                * The Entry-level Dwelling on your board can hold 2 Farm animals of
+                  the same type.
+                * The "Breakfast Room" Furnishing tile can hold up to 3 Cattle.
+                * Each Ore or Ruby mine space can hold 1 Donkey
+                * A Meadow with a Stable can hold 1 of any Farm animal.
+                * Meadows cannot normally hold Farm animals. However, if you place
+                  1 or more Dogs on a Meadow, you can place Sheep on that space equal
+                  to the number of Dogs + 1 (eg., with 2 Dogs you can have 3 Sheep).
+                  If you do this in a Meadow with a Stable, the Stable is ignored.
+                * Each Pasture space can hold up to 2 Farm animals of the same type.
+                  A twin Pasture tile can hold up to 4 Farm animals of the same type.
+                * A Stable inside a Pasture increases the amount of Farm animals of
+                  the same type the Pasture can hold.
+                    * A small Pasture with a Stable can hold 4 Farm animals.
+                    * A large Pasture with a Stable can hold 8 Farm animals.
+                    * A large Pasture with a stable can hold 16 Farm animals.
+          - name: Converting Food
+            text: |
+              Certain goods can be converted to food as depcted at the bottom of your
+              Home board:
+
+                * Dogs cannot be converted to Food
+                * Donkeys, Sheep, and Grain can be converted to 1 Food each
+                * Boars, Rubies, and Vegetables can be converted to 2 Food each
+                * Cattle can be converted to 3 Food each
+                * 2 Donkeys can be converted to 3 Food for each pair.
+                * 2-4 Gold can be spent to gain Food equal to the amount spent -1.
+                  (eg., 2 Gold for 1 food).  1 Gold does not give you any Food.
+    - name: End Game Scoring
+      text: |
+        The game ends at the end of Round 12.  Using the scorepad, count up your
+        players scores as follows:
+
+          * 1 Gold per Farm animal and Dog
+          * -2 Gold per type of Farm animal missing (Sheep, Donkey, Board, Cattle)
+          * 1/2 Gold per Grain (rounded up)
+          * 1 Gold per Vegetable
+          * 1 Gold per Ruby
+          * 1 Gold per Dwarf
+          * -1 Gold per empty Forest or Mountain space (no tile on it)
+          * Gold as shown on Furnishing, Pasture, and Mine tiles
+          * Bonus points as described on Parlor, Storage, and Chamber Furnishings.
+          * 1 Gold for each Gold in your supply
+          * -3 Gold per Begging marker.
+
+        Whoever has the most gold wins.  There can be multiple winners.      
