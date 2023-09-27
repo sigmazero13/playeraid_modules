@@ -1,0 +1,408 @@
+name: "Final Girl"
+description: "Battle the 100% intellectually distinct baddies that may, coincidentally, resemble the bad guys from 80s and 90s horror movies."
+text_type: markdown
+credits: "Jay Deiman"
+enabled: true
+version: 1.1
+bgg_id: 277659
+expansions:
+sections:
+    - name: Setup
+      text: |
+        ## Core box
+
+        * Choose a killer and a location from among the feature films. Remove
+          the killer and location boards (box covers) and any associated
+          components.
+        * Choose a final girl to play as.
+        * Take the player board from the core box and place it, choosing a
+          difficulty (different sides). Place your final girl card below the
+          player board.
+        * Set the dice near your player board.
+        * Take the action cards from the core box, setting the 6 zero cost
+          cards aside (your starting hand).
+        * Sort the rest of the action cards by their type and create a market
+          tableau, with each card of a particular type in a stack.
+        * Set the victim/special victim meeples aside along with their holding
+          boards.
+        * Remove the other meeples/tokens from the core box for use.
+
+        ## Feature film
+
+        * Place the chosen killer board above the player board.
+        * Place the chosen location board to the right of the killer board.
+        * Shuffle the killer's finale cards and place 1 face down, matching
+          up the artwork.
+        * Shuffle the killer's dark power cards and place 1 face down below
+          the finale card.
+        * Shuffle the killer's and the location's terror cards together, then
+          take 10 random cards to form the terror deck.  Set the rest aside.
+        * Shuffle the location's item cards and deal out 3 piles of 4 face
+          down cards in their places above the location board and flip the
+          top card of each pile
+        * Shuffle the location's setup cards and draw 1.
+            * Setup the board as depicted on the card using the core box
+              components.
+            * Place the card in its place above the location board.
+            * The rest of setup cards can be returned to the box.
+        * Mix the 9 black final health tokens face down (+1 die face up). Then,
+          **without looking at them**:
+            * Place 1 on the circle on the bottom left of the killer board.
+            * Place 1 on the circle on the upper left side of the player
+              board.
+            * Return the rest to the box (also without looking at them).
+        * Place health markers in the space on the left side of the killer
+          and player boards until you have an amount matching the killer's
+          and final girl's health, respectively.
+            * **Important**: the *total* number of health tokens should include
+              the black final health token.  e.g. If the final girl has
+              5 health, they should have 1 black token and 4 heart tokens.
+        * Place the bloodlust marker at the bottom of the bloodlust track
+          on the right side of the killer board.
+        * Place the time marker on the 6 space.
+        * Place the 2nd killer marker on the horror track on the player
+          board. The starting horror is indicated on the killer board.
+        * Shuffle the event cards and place them face down next to the location
+          board.
+            * Draw the top card and follow the instructions on it.
+        * You can now begin the game.
+    - name: Gameplay
+      text: |
+        The game is played in a series of rounds until either the killer or
+        the final girl are dead.
+      sections:
+        - name: "1. The Action Phase"
+          text: |
+            The action phase mainly consists of playing cards for their
+            effects.
+
+            * The action phase will end one of the following happens:
+                * You decide to stop.
+                * You run out of cards to play.
+                * An action card results in
+                  ![redx](/static/img/final_girl/redx.png).
+                * The time marker goes *below* zero.
+            * Play action cards for their effects.
+                * Most cards require a die roll.  The number of dice is
+                  determined by the horror track and any other effects that
+                  may be in play.
+                    * If you and/or the killer is down to their last health
+                      point (black or white token), roll an additional die
+                      for each.  e.g. if both the killer and final girl
+                      were on their last point of health, roll **2** additional
+                      dice.
+                * Some cards/effects will allow you reroll dice.
+                * You will **always roll at least 1 die**.
+            * Some cards allow you to move.
+                * Adjacent spaces are usually indicated by a door or path.
+                * When leaving a space, you may take **up to 2 victims** with
+                  you.
+                * Victims will **not follow you into the killer's space**.
+                * If you move onto a "green door" space, you can rescue any
+                  victims on the space.
+                    * This could be victims already on the space or ones you
+                      brought with you.
+                    * This can be done even if you are passing through the
+                      space.
+                    * Place the victims on the final girl card and take the
+                      shown rewards that are covered.
+                        * If all spaces are filled on the final girl card,
+                          flip it over to reveal the final girl's ultimate
+                          ability.
+                            * If there were additional victims saved, take the
+                              reward on the new face-up side.
+            * If you are on a search space, you can play a search card.
+                * You may be able to draw 1 or more cards depending on die
+                  results.
+                * If it happens that cards on the tops of the search decks are
+                  face down, do **not** reveal the top card (unless instructed
+                  to do so).
+            * Some cards allow you to recover health.
+                * Recover 1 health per heart up to your max health.  You
+                  **cannot** ever exceed your max health.
+            * Attacking:  You must be in the same space as the killer unless
+              you have an item or ability that allows otherwise (e.g. a ranged
+              weapon).
+                * If you have weapons/abilities that modify the damage, these
+                  are applied **if you produced at least 1 damage**.
+                * If the final (black) health token is removed from the killer,
+                  check the other side of the token. Any excess damage is lost,
+                  even if the killer comes back.
+                    * If it shows hearts, replace the black token with a white
+                      token and replenish the killer's health up to the
+                      total number of hearts on the black token.
+                    * If it shows no hearts, you win!
+            * Some effects will cause you to lose time.
+                * If you ever lose time below zero, the action phase ends
+                  immediately.
+                * You may discard cards to get 1 time each.
+            * If the horror track would go below the first (green) space,
+              increase time by 1.  If it would go above the final space (red),
+              increase bloodlust by 1.
+        - name: "2. The Planning Phase"
+          text: |
+            1. Spend time to purchase cards from the available tableau. The
+               cost is shown in the lower right area of the card.
+                * You **cannot** purchase cards that were played in the most
+                  recent action phase.
+                * You **cannot** purchase a card if it would drop the time
+                  marker below zero.
+                * You have a **hand limit of 10 cards**.
+                * Note that some cards cost zero time.
+            2. Reset the time marker to the 6 space.
+            3. All action cards that were played that round are returned to
+               the tableau, including the zero cost cards.  These can be
+               purchased in later rounds.
+        - name: "3. The Killer Phase"
+          id: killer
+          text: |
+            1. Resolve the killer action show on their (top) finale card
+               next to the "K" icon.
+            2. (**If the finale has been revealed, skip this step**) Draw the
+               top terror card and resolve its effects.
+
+            ## Targeting
+            The targets are determined via the following symbols:
+
+            | Symbol | Target |
+            | ------ | ------ |
+            | ![victim](/static/img/final_girl/t_victim.png) | The target is the closes victim |
+            | ![fg](/static/img/final_girl/t_fg.png) | The target is the final girl |
+            | ![v_fg](/static/img/final_girl/t_fg_v.png) | The target is whoever is closest, either the final girl or a victim |
+
+            1. If there is a tie for closest, choose the group with the most
+               victims. Note that the final girl is **not** a victim.
+            2. If there is still a tie, you decide (with optional ambiguity
+               rules).
+
+            ## Moving
+            * The killer moves a number of spaces **per boot icon** based on
+              their current bloodlust level.
+            * The killer will always take the shortest path to its target.
+            * The killer stops as soon as they have reached their closest
+              target.
+            * Note that sometimes the killer will move through a space with
+              the final girl or a victim when they are not the intended target.
+
+            ## Attacking
+            * The killer will attack a single target for each knife icon.
+                * If there is more than 1 knife icon, the killer will only
+                  attack again in the same space, they will not move after a
+                  kill.
+            * If the killer ends up in a space with a with a non-target
+              (couldn't reach their target), they will still attack.
+            * The damage done is indicated by the current bloodlust level.
+            * The killer will always attack victims before the final girl,
+              unless the final girl is specifically the target.
+            * Each victim has only one health.
+                * When a victim is killed, add them to the dead victims area
+                  and increase bloodlust by 1.
+                * Any leftover damage the killer would do is lost.
+            * If attacking the final girl, the attack automatically damages
+              the final girl, losing health equal to the damage number shown
+              on the bloodlust track.
+                * If there is a 2nd knife icon, that is a separate attack
+                  that must be resolved completely separately from the 1st
+                  attack.
+                * If this makes you lose your last health (black token),
+                  reveal it and:
+                    * If it is blank, you lose.
+                    * If it shows hearts, replace the black token with a
+                      white token and refill health to the number of hearts
+                      shown on the black token.
+                    * Any remaining damage from the attack is lost.
+                * You may play blue reaction cards to prevent damage, or
+                  apply damage back to the killer (retaliate).
+                    * You may never use reaction cards to prevent health lost
+                      via ![lose_h](/static/img/final_girl/sm_lose_h.png) icons.
+                    * Reaction cards **cannot** be used to prevent damage
+                      to victims.
+                    * Each reaction card can be used for only 1 attack.
+        - name: "4. The Panic Phase"
+          text: |
+            * Victims will panic if:
+                * At least 1 victim was killed this turn (where and how doesn't
+                  matter).
+                * **AND** the victim is in the same space as the killer.
+            * Roll a die for each victim and move them in the direction shown
+              on the map.
+                * If the rolled number is not shown on a path, the victim does
+                  not move.
+                * You may choose the order in which victims are panicked.
+        - name: "5. The Upkeep Phase"
+          id: upkeep
+          text: |
+            1. If there are no cards in the terror deck, [reveal the finale
+            card](#rev_finale).
+            2. Perform any upkeep indicated on events, items, other cards, or
+               special rules.
+            3. You may rearrange any items to/from your backpack to your hands.
+    - name: Revealing the Finale
+      id: rev_finale
+      text: |
+        When there are no terror cards left in the terror deck, the finale is
+        revealed (during the [Upkeep phase](#upkeep)).
+
+        * Some finale cards have immediate effects.
+        * **If the dark power is face down, reveal it as well**.
+        * Note that there is a new killer action now in effect.
+        * You will no longer draw a terror card during the [killer
+          phase](#killer).
+    - name: Game End
+      text: |
+        The game ends when you have killed the killer or the killer has killed
+        you.  If both happen at the same time, you are still victorious!
+    - name: Additional Rules
+      sections:
+        - name: Items
+          text: |
+            * You only have 2 hands, so you can either have 2 1-handed items
+              equipped or 1 2-handed item.
+            * Items that don't require hands can be used directly from your
+              backpack.
+            * Whenever you gain an item, you may equip it to your hands or
+              put it in your backpack.
+                * You can rearrange items freely whenever you gain an item.
+            * Items can only be rearranged during the [Upkeep phase](#upkeep)
+              or when you acquire a new item.
+            * Your backpack can hold any number of items.
+            * Some items have limited uses. Use tracking markers for the
+              limited uses, unless they are single use.
+            * If not otherwise specified, items have unlimited uses.
+
+            ## Weapons
+
+            * If you have a different weapon in each hand, you must choose
+              **1** to use when resolving an attack.
+            * The number in the upper left is the range of the item (e.g. zero
+              indicates you must be in the same space).
+            * The damage "splats" indicate how much *additional* damage they do.
+                * The additional damage can only be applied if you did
+                  at least 1 damage via an attack action.
+        - name: Bloodlust and Dark Powers
+          text: |
+            ## Bloodlust
+
+            * Whenever you would progress multiple spaces on the track, all the
+              intermediate spaces are resolved.
+            * This will increase the killer's movement and damage as well as
+              unlocking the dark power.
+            * If bloodlust reaches the max, it will trigger the final effect
+              for each additional increase to bloodlust.
+
+            ## Dark Powers
+
+            * Some terror cards are minor dark powers.
+                * These will give the killer new powers *and* extend the
+                  killer's health.
+                * When these come up, place the indicated number of health
+                  markers on the card.
+                * Whenever damage is done to the killer, it **must be removed
+                  from the minor dark powers 1st!**
+                * If all health markers are removed from a minor dark power,
+                  discard it.
+        - name: Events
+          text: |
+            * An event is reveled at the start of the game.
+            * Events may be revealed during the game when indicated by the
+              event icon.
+                * It is possible to have multiple permanent events in play.
+            * Some events are permanent, and some have 1 time effects and are
+              discarded after applying the effects.
+            * If the effects cannot be applied, the card is ignored. Do **not**
+              draw another event in that case.
+            * Some cards will bring special victims (different colors) into
+              play.
+                * Special victims are treated just like normal victims in terms
+                  of following you, saving them, and panicking them.
+        - name: Minions
+          text: |
+            * Minions can be present with or without the killer, depending on
+              the scenario.
+            * Minions each come with their own reference card with health and
+              attack/movement values.
+            * The number of minions that can be on the board is always limited
+              by the number of minion tokens.
+                * If you are told to place/spawn a minion and there are no
+                  tokens available, the effect is ignored.
+
+            ## Attacking a Minion
+
+            * Generally, follow the same rules as when you attack the killer.
+            * If the killer is in the same space as 1+ minions, you must
+              1st decide whether you are attacking the killer or the minions.
+              **You cannot attack both**.
+            * If you choose to attack the minions and there is more than 1 in
+              the space, you are attacking **all** of them.
+                * You may divide damage among all the minions.
+                * Any leftover damage is lost.
+                * You **cannot** divide damage between minions and the killer.
+            * Victims will follow you into a space that contains minions
+              (unless the killer is also there).
+
+            ## The Killer Phase
+
+            * In addition to resolving the killer action on the finale card,
+              there will also be a minion action.
+                * Resolve the actions on the card from top to bottom.
+            * When resolving terror cards, all *enemies* will perform any
+              killer actions 1 at a time.
+                * **Minions should always act 1st**, followed by the killer.
+
+            ## The Panic Phase
+
+            * If at least 1 victim was killed, victims in a space with a
+              minion will panic (with the same rules as if they were with
+              the killer).
+        - name: Game Terms
+          text: |
+            * **Discarding**: Place the indicated card in its appropriate
+              discard pile.
+                * Action cards discarded for effects will always go back to
+                  the action tableau (not removed from the game).
+                * If a card says to discard itself, any effects on the card
+                  below the discard effect are **ignored**.
+                * If a card is discarded from the top of a deck, all its
+                  effects are ignored.
+            * **Drawing (or taking)**: Draw the top card of the indicated type.
+                * Action cards are taken into your hand.
+                * Item cards are placed in your hands or your backpack.
+                * Other cards are immediately resolved.
+            * **Playing**: This corresponds to **action** cards. Items and
+              abilities are *used*.
+            * **Removing**:
+                * If something is "removed from the game", place it back in
+                  the box.
+                * If something is "removed from play", it should be removed
+                  from the board, but may return.
+            * **Enemy/Enemies**: Rules and cards that state "Enemies"
+              specifically apply to both killers and minions.
+            * **Killer**: Rules and cards that specifically state the Killer
+              do *not* apply to minions.
+            * **Minion/Minions**: Rules and cards that state "Minions" do
+              *not* apply to the killer.
+    - name: Icons
+      text: |
+        | Icon | Description |
+        | ---- | ----------- |
+        | ![part_succ](/static/img/final_girl/part_succ.png) | You can discard 2 cards from your hand to convert this die result to a success. |
+        | ![gain_time](/static/img/final_girl/1_time.png) | You may discard an action card at any time to gain 1 time. If you see this symbol, gain 1 time. |
+        | ![lose_time](/static/img/final_girl/lose_time.png) | Lose 1 time. |
+        | ![gain_health](/static/img/final_girl/gain_health.png) | Recover 1 health. |
+        | ![lose_health](/static/img/final_girl/lose_health.png) | Lose 1 health (unpreventable). |
+        | ![inc_horror](/static/img/final_girl/inc_horror.png) | Increase the horror level by 1. |
+        | ![dec_horror](/static/img/final_girl/dec_horror.png) | Decrease the horror level by 1. |
+        | ![act_end](/static/img/final_girl/act_end.png) | The action phase ends immediately. |
+        | ![damage](/static/img/final_girl/damage.png) | 1 damage |
+        | ![roll_1_die](/static/img/final_girl/roll_die.png) | Roll 1 additional die. |
+        | ![success](/static/img/final_girl/success.png) | Horror roll success. |
+        | ![failure](/static/img/final_girl/failure.png) | Horror roll failure. |
+        | ![t_fg_v](/static/img/final_girl/t_fg_v_lg.png) | Target the closest victim or final girl. |
+        | ![t_victim](/static/img/final_girl/t_victim_lg.png) | Target the closest victim. |
+        | ![t_fg](/static/img/final_girl/t_fg_lg.png) | Target the final girl. |
+        | ![k_attack](/static/img/final_girl/k_attack.png) | The killer attacks. |
+        | ![k_move](/static/img/final_girl/k_move.png) | The killer moves. |
+        | ![inc_blood](/static/img/final_girl/inc_blood.png) | Increase the bloodlust by 1. |
+        | ![event](/static/img/final_girl/event.png) | Draw a new event. |
+        | ![exit](/static/img/final_girl/exit.png) | An exit space. Victim brought here are rescued. |
+        | ![search](/static/img/final_girl/search.png) | A search space. |
