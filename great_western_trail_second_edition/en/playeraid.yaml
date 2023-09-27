@@ -11,7 +11,7 @@ sections:
       text: |
           This document shows information for both multiplayer and 
           [solo mode]!red!.  [Solo mode-specific text will be in red.]!red!
-          [Rules related to the Semminal variant will be in orange.]!orange!
+          [Rules related to the Simmental variant will be in orange.]!orange!
           Expansion instructions are not found in this document.
     - name: Setup
       text: |
