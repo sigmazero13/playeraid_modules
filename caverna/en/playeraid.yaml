@@ -32,7 +32,9 @@ sections:
                   on Round spaces 6-12, one per space.
                     * 2-player: remove one "green leaf" Harvest marker first, and
                       leave space 9 empty when placing the rest.
+                    * Solo: Do not place any Harvest markers.
                 * Place the "Harvest events" card near the boards.
+                    * Solo: Return the "Harvest events" card to the box instead.
                 * Place the third basic game board to the left of the other two,
                   turned to the appropriate side based on number of players
                   (1-3 or 4-7).
@@ -124,7 +126,7 @@ sections:
                       * 2-Player: The Ruby mining space does not begin to accumulate
                         rubies until Round 3, as shown on the space.
 
-                - name: 3)Work phase
+                - name: 3) Work phase
                   text: |
                     Beginning with the Starting player and going clockwise, players
                     take turns placing Dwarfs. Take a single Dwarf from your cave
@@ -164,6 +166,9 @@ sections:
                     there is a "red question mark", place the token on the top-most
                     empty space of the Harvest Event card, and resolve the effect
                     shown.
+
+                    * Solo: Harvest tokens are not used; instead, from Round 5 onward,
+                        do a regular "green leaf" harvest for all rounds.
 
                     If there is a "green leaf", perform the following harvest sub-phases:
 
